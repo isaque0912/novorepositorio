@@ -2,7 +2,7 @@ programa{
 	funcao inicio()	{
 		real total = 0.0
 		inteiro case
-					escreva("Lanchonete Do Isaque - Versao1\n")
+					escreva("Lanchonete Do Isaque - Versao2\n")
 		faca
 		{
 			escreva("Cardapio\n")
