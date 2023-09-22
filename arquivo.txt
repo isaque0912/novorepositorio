@@ -1,0 +1,41 @@
+programa{
+	funcao inicio()	{
+		real total = 0.0
+		inteiro case
+					escreva("Lanchonete Do Isaque - Versao1\n")
+		faca
+		{
+			escreva("Cardapio\n")
+			escreva("  1 -> X-Salada 7.00\n")
+			escreva("  2 -> X-Bacon 9.00\n")
+			escreva("  3 -> X-Egg 6.50\n")
+			escreva("  4 -> Refrigerante 8.00\n")
+      escreva("  5 -> Finalizar Pedido\n")
+			escreva("Informe o Numero do Seu pedido: ")
+				leia(case)
+				escolha (case){			
+				caso 1: 
+			 		total = total + 7.00
+			 	pare
+			 	
+			 	caso 2: 
+			 			 		total = total + 9.00
+			 	pare
+			 	
+			 	caso 3: 
+			 			 		total = total + 6.50
+			 	pare
+
+			 		caso 4: 
+			 		total = total + 8.00
+			 	pare
+        caso 5: 
+			 		escreva ("valor total do pedido: ", total)
+			 	pare
+			 	caso contrario:
+			 	escreva ("O valor digitado esta incorreto\n\n")
+			}			 
+		}
+		enquanto(case != 5)
+		}
+	}
